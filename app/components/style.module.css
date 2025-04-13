@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.caveat-font {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    background-color: hsl(55, 75%, 70%);
+    display: flex;
+    height: 170px;
+    width: 992px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 85px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+.header_back {
+    background-color: hsl(55, 56%, 90%);
+    display: flex;
+    height: 150px;
+    width: 967px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.text_logo {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 7vh;
+    color: hsl(0, 0%, 40%);
+}
+
+/* .section_venda {
+    background-color: hsl(55, 56%, 90%);
+    display: flex;
+    height: 600px; 
+    width: 992px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 20px;
+} */
+
+.section_venda { 
+    background-color: hsl(55, 56%, 90%);
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+    height: auto;
+    width: 952px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    /* gap: 20px; */
+}
+
+/* .pastel {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+} */
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pastel { 
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sabor{
+    font-family: "Caveat", cursive;
+    /* font-optical-sizing: auto; */
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    color: hsl(0, 0%, 40%);
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+}
+
+.preco {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    color: hsl(0, 0%, 60%);
+}
